@@ -4,7 +4,6 @@ metadata:
   name: mongo-volume-claim
   namespace: workshop   # or three-tier (must match your deployment)
 spec:
-  spec:
   storageClassName: standard   # or gp2 / hostpath depending on what you see
   accessModes:
     - ReadWriteOnce
